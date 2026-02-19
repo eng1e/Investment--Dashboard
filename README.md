@@ -21,7 +21,7 @@ need for manually maintained datasets.
 5. Deployment: Hosted live on Streamlit Cloud for shareable, interactive access.
 
 ## Dashboard Screenshots
-![Asset Prices Chart](./screenshots/assets_price.png)
+![Asset Prices Chart](./screenshots/Assets_Prices.png)
 ![Daily Returns Chart](./screenshots/daily_returns.png)
 
 ## Key Insights
