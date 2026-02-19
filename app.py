@@ -6,7 +6,7 @@ st.title("Investment Portfolio Risk Dashboard")
 st.markdown("""
 Welcome to the Investment Portfolio Risk Dashboard.
 
-Use the asset selector and portfolio weights to explore how allocation affects risk and return.
+:star2: Use the asset selector and portfolio weights to explore how allocation affects risk and return.
 """)
 assets = ["AAPL", "MSFT", "TSLA", "NVDA", "SPY", "GLD", "BTC-USD"]
 
