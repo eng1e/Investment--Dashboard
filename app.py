@@ -1,14 +1,19 @@
 import streamlit as st
 import yfinance as yf
 import pandas as pd
+
 st.title("Investment Portfolio Risk Dashboard")
+st.markdown("""
+Welcome to the Investment Portfolio Risk Dashboard.
+
+Use the asset selector and portfolio weights to explore how allocation affects risk and return.
+""")
 assets = ["AAPL", "MSFT", "TSLA", "NVDA", "SPY", "GLD", "BTC-USD"]
 
 data = yf.download(assets, start="2023-01-01")["Close"]
 st.subheader("Assets Prices")
 st.line_chart(data)
 
-#حساب النسبة المئوية لتغير السعر يوميا
 returns = data.pct_change()
 st.subheader("Daily Returns")
 st.line_chart(returns)
